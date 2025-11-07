@@ -1,0 +1,1 @@
+cl /EHsc src\main.cpp src\glad.c /Iinclude /Fe:build\app.exe /link /LIBPATH:lib glfw3dll.lib opengl32.lib user32.lib gdi32.lib shell32.lib
